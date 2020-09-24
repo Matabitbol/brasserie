@@ -1,0 +1,2632 @@
+(this["webpackJsonpbrasserie-lintemporelle"] = this["webpackJsonpbrasserie-lintemporelle"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./images/defaultBcg.jpeg */ "./src/images/defaultBcg.jpeg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./images/biere-2.jpeg */ "./src/images/biere-2.jpeg");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+// Module
+exports.push([module.i, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n:root {\n  --primaryColor: #af9a7d;\n  --mainWhite: #fff;\n  --offWhite: #f7f7f7;\n  --mainBlack: #222;\n  --mainGrey: #ececec;\n  --darkGrey: #cfcfcf;\n  --mainTransition: all 0.3s linear;\n  --mainSpacing: 3px;\n  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);\n  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);\n}\n\n/* globals */\nbody {\n  padding-top: 66px;\n  color: var(--mainBlack);\n  background: var(--mainWhite);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  line-height: 1.4;\n}\nh1 {\n  font-size: 3em;\n  line-height: 1;\n  margin-bottom: 0.5em;\n}\nh2 {\n  font-size: 2em;\n  margin-bottom: 0.75em;\n}\nh3 {\n  font-size: 1.5em;\n  line-height: 1;\n  margin-bottom: 1em;\n}\nh4 {\n  font-size: 1.2em;\n  line-height: 1.25;\n  margin-bottom: 1.25em;\n}\nh5 {\n  font-size: 1em;\n  font-weight: bold;\n  margin-bottom: 1.5em;\n}\nh6 {\n  font-size: 1em;\n  font-weight: bold;\n  margin-bottom: 1.5em;\n}\n\n.btn-primary {\n  display: inline-block;\n  text-decoration: none;\n  letter-spacing: var(--mainSpacing);\n  color: var(--mainBlack);\n  background: var(--primaryColor);\n  padding: 0.4rem 0.9rem;\n  border: 3px solid var(--primaryColor);\n  transition: var(--mainTransition);\n  text-transform: uppercase;\n  cursor: pointer;\n}\n.btn-primary:hover {\n  background: transparent;\n  color: var(--primaryColor);\n}\n.loading {\n  text-transform: capitalize;\n  text-align: center;\n  margin-top: 3rem;\n}\n.error {\n  text-align: center;\n  text-transform: uppercase;\n  margin: 2rem 0;\n}\n.empty-search {\n  text-align: center;\n  text-transform: capitalize;\n  margin: 2rem 0;\n  padding: 1rem;\n  letter-spacing: var(--mainSpacing);\n}\n/* end of globals */\n/* Navbar */\n.navbar {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  padding: 0.75rem 2rem;\n  background: var(--offWhite);\n  z-index: 1;\n}\n.nav-header {\n  display: flex;\n  justify-content: space-between;\n}\n.nav-btn {\n  background: transparent;\n  border: none;\n  cursor: pointer;\n  outline: none;\n}\n.nav-icon {\n  font-size: 1.5rem;\n  color: var(--primaryColor);\n}\n.nav-links {\n  height: 0;\n  overflow: hidden;\n  transition: var(--mainTransition);\n  list-style-type: none;\n}\n.nav-links a {\n  display: block;\n  text-decoration: none;\n  padding: 1rem 0;\n  color: var(--mainBlack);\n  transition: var(--mainTransition);\n  text-align: center;\n  font-size: 1rem;\n  font-weight: 600;\n  letter-spacing: var(--mainSpacing);\n}\n.nav-links a:hover {\n  color: var(--primaryColor);\n}\n\n.show-nav {\n  height: 100px;\n}\n@media screen and (min-width: 768px) {\n  .nav-btn {\n    display: none;\n  }\n  .nav-center {\n    max-width: 1170px;\n    margin: 0 auto;\n    display: flex;\n  }\n  .nav-links {\n    height: auto;\n    display: flex;\n    margin-left: 4rem;\n  }\n  .nav-links a {\n    margin: 0 1rem;\n    padding: 0.5rem 0;\n  }\n}\n/* end of navbar */\n/* Hero */\n.defaultHero,\n.bieresHero {\n  min-height: calc(100vh - 66px);\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") center/cover no-repeat;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.bieresHero {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  min-height: 60vh;\n}\n\n/* End of Hero */\n\n/* Banner */\n.banner {\n  display: inline-block;\n  background: rgba(0, 0, 0, 0.5);\n  color: var(--mainWhite);\n  padding: 2rem 1rem;\n  text-align: center;\n  text-transform: capitalize;\n  letter-spacing: var(--mainSpacing);\n}\n.banner h1 {\n  font-size: 2.5rem;\n}\n.banner div {\n  width: 10rem;\n  height: 5px;\n  background: var(--primaryColor);\n  margin: 1.7rem auto;\n}\n.banner p {\n  font-size: 1.2rem;\n  margin-bottom: 2rem;\n}\n@media screen and (min-width: 576px) {\n  .banner {\n    padding: 2rem 3rem;\n  }\n  .banner h1 {\n    font-size: 3rem;\n  }\n}\n@media screen and (min-width: 992px) {\n  .banner {\n    padding: 2rem 6rem;\n  }\n  .banner h1 {\n    font-size: 4rem;\n  }\n}\n/* End of Banner */\n/* Title */\n.section-title {\n  text-align: center;\n  margin-bottom: 4rem;\n}\n.section-title h4 {\n  font-size: 2rem;\n  letter-spacing: var(--mainSpacing);\n  text-transform: capitalize;\n  margin-bottom: 1rem;\n}\n.section-title div {\n  width: 5rem;\n  height: 5px;\n  margin: 0 auto;\n  background: var(--primaryColor);\n}\n/* end of Title */\n\n/* services */\n.services {\n  padding: 5rem 0;\n}\n.services {\n  background: var(--darkGrey);\n  text-align: center;\n}\n.services-center {\n  width: 90vw;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));\n  grid-row-gap: 2rem;\n  grid-column-gap: 50px;\n}\n.service span {\n  display: inline-block;\n  color: var(--primaryColor);\n  font-size: 2.5rem;\n  margin-bottom: 1.5rem;\n}\n.services h6 {\n  letter-spacing: var(--mainSpacing);\n  /*text-transform: capitalize;*/\n}\n.services p {\n  width: 80%;\n  margin: 0 auto;\n}\n@media screen and (min-width: 992px) {\n  .services-center {\n    width: 95vw;\n    max-width: 1170px;\n  }\n}\n\n@media screen and (min-width: 1200px) {\n  .services p {\n    width: 100%;\n  }\n}\n/*end of services */\n/* featured beers*/\n\n.featured-beers {\n  padding: 5rem 0;\n}\n.featured-beers-center {\n  width: 80vw;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));\n  grid-row-gap: 2rem;\n  grid-column-gap: 40px;\n}\n@media screen and (min-width: 776px) {\n  .featured-beers-center {\n    width: 90vw;\n    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));\n  }\n}\n@media screen and (min-width: 992px) {\n  .featured-beers-center {\n    width: 95vw;\n    max-width: 1170px;\n  }\n}\n/* end pf featured beers */\n/* beer */\n.beer {\n  box-shadow: var(--lightShadow);\n  transition: var(--mainTransition);\n}\n.beer:hover {\n  box-shadow: var(--darkShadow);\n}\n\n.img-container {\n  position: relative;\n}\n.img-container img {\n  width: 100%;\n  display: block;\n  transition: var(--mainTransition);\n}\n.price-top {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.8);\n  color: var(--mainWhite);\n  padding: 0.3rem 0.6rem 0.5rem;\n  border-bottom-right-radius: 1rem;\n  font-size: 0.5rem;\n  text-align: center;\n  transition: var(--mainTransition);\n}\n.price-top h6 {\n  margin-bottom: 0;\n  font-size: 0.9rem;\n  font-weight: 300;\n  letter-spacing: var(--mainSpacing);\n}\n.beer-link {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: scale(0);\n  transition: all 0.3s linear;\n}\n.img-container:hover {\n  background: rgba(0, 0, 0, 0.8);\n}\n.img-container:hover img {\n  opacity: 0.3;\n}\n.img-container:hover .price-top {\n  opacity: 0;\n}\n.img-container:hover .beer-link {\n  transform: translate(-50%, -50%) scale(1);\n}\n.beer-info {\n  background: var(--darkGrey);\n  text-transform: capitalize;\n  padding: 0.5rem 0;\n  text-align: center;\n  font-weight: 700;\n  letter-spacing: var(--mainSpacing);\n}\n/* end of beer  */\n/* biere*/\n\n.biere{\n  padding: 5rem 0 0 0;\n}\n.biere-images {\n  width: 80vw;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n  grid-row-gap: 2rem;\n  grid-column-gap: 50px;\n}\n.biere-images img {\n  width: 100%;\n  display: block;\n}\n.biere-info {\n  width: 80vw;\n  display: grid;\n  grid-template-columns: 1fr;\n  margin: 2rem auto;\n}\n.desc,\n.info {\n  margin: 1rem 0;\n}\n.desc h3 {\n  text-transform: capitalize;\n  letter-spacing: var(--mainSpacing);\n}\n.desc p {\n  line-height: 1.5;\n}\n.info h3,\n.info h6 {\n  text-transform: capitalize;\n  letter-spacing: var(--mainSpacing);\n}\n\n.info h6 {\n  font-weight: 300;\n}\n.biere-extras {\n  width: 80vw;\n  margin: 0 auto 3rem auto;\n}\n.biere-extras h6 {\n  text-transform: capitalize;\n  letter-spacing: var(--mainSpacing);\n}\n.extras {\n  list-style-type: none;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));\n  grid-column-gap: 2rem;\n  grid-row-gap: 1rem;\n}\n@media screen and (min-width: 992px) {\n  .biere-images,\n  .biere-info,\n  .biere-extras {\n    width: 95vw;\n    max-width: 1170px;\n  }\n  .biere-info {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-column-gap: 2rem;\n  }\n  .info {\n    padding-left: 3rem;\n  }\n}\n/* end of biere*/\n/* beerlist */\n.beerslist {\n  padding: 5rem 0;\n}\n.beerslist-center {\n  width: 80vw;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));\n  grid-row-gap: 2rem;\n  grid-column-gap: 30px;\n}\n\n@media screen and (min-width: 776px) {\n  .beerslist-center {\n    width: 90vw;\n  }\n}\n@media screen and (min-width: 992px) {\n  .beerslist-center {\n    width: 95vw;\n    max-width: 1170px;\n  }\n}\n/* end of roomlist */\n/*  rooms fitler*/\n.filter-container {\n  padding: 5rem 0;\n}\n.filter-form {\n  width: 60vw;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));\n  grid-row-gap: 2rem;\n  grid-column-gap: 40px;\n}\n.form-group {\n  text-transform: capitalize;\n}\n.form-group label {\n  display: block;\n  letter-spacing: var(--mainSpacing);\n  margin-bottom: 0.5rem;\n}\n.form-control {\n  width: 100%;\n  background: transparent;\n  font-size: 1rem;\n}\n.size-inputs {\n  display: flex;\n}\n.size-input {\n  width: 40%;\n  padding: 0.2rem;\n  border: 1px solid var(--mainBlack);\n  border-radius: 0.3rem;\n  margin-right: 0.3rem;\n}\n.single-extra label {\n  display: inline-block;\n  font-size: 0.8rem;\n  margin-left: 0.5rem;\n}\n@media screen and (min-width: 776px) {\n  .filter-form {\n    width: 70vw;\n  }\n}\n@media screen and (min-width: 992px) {\n  .filter-form {\n    width: 95vw;\n    max-width: 1170px;\n  }\n}\n/* end of rooms fitler*/\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/Home */ "./src/pages/Home.js");
+/* harmony import */ var _pages_Bieres__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Bieres */ "./src/pages/Bieres.js");
+/* harmony import */ var _pages_Biere__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Biere */ "./src/pages/Biere.js");
+/* harmony import */ var _pages_Erreurs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/Erreurs */ "./src/pages/Erreurs.js");
+/* harmony import */ var _pages_News__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/News */ "./src/pages/News.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Navbar */ "./src/components/Navbar.js");
+/* harmony import */ var _pages_ContactUs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/ContactUs */ "./src/pages/ContactUs.js");
+/* harmony import */ var _pages_LivreDor__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/LivreDor */ "./src/pages/LivreDor.js");
+/* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/About */ "./src/pages/About.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Switch"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/",
+    component: _pages_Home__WEBPACK_IMPORTED_MODULE_2__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/news/",
+    component: _pages_News__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/about/",
+    component: _pages_About__WEBPACK_IMPORTED_MODULE_11__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/contactus/",
+    component: _pages_ContactUs__WEBPACK_IMPORTED_MODULE_9__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/livredor/",
+    component: _pages_LivreDor__WEBPACK_IMPORTED_MODULE_10__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/bieres/",
+    component: _pages_Bieres__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    exact: true,
+    path: "/bieres/:slug",
+    component: _pages_Biere__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    component: _pages_Erreurs__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 5
+    }
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/Contentful.js":
+/*!***************************!*\
+  !*** ./src/Contentful.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var contentful__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! contentful */ "./node_modules/contentful/dist/es-modules/contentful.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(contentful__WEBPACK_IMPORTED_MODULE_0__["createClient"])({
+  space: "wsbjzpnicy44",
+  accessToken: "nOSbtOPuoot8knBtwxT8IRE1KVrxPs0q7knecYCpPOY"
+}));
+
+/***/ }),
+
+/***/ "./src/components/Banner.js":
+/*!**********************************!*\
+  !*** ./src/components/Banner.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Banner.js";
+
+
+const Banner = ({
+  children,
+  title,
+  subtitle
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "banner",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 7
+    }
+  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  }, subtitle), children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Banner);
+
+/***/ }),
+
+/***/ "./src/components/BeerComp.js":
+/*!************************************!*\
+  !*** ./src/components/BeerComp.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_defaultBcg_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/defaultBcg.jpeg */ "./src/images/defaultBcg.jpeg");
+/* harmony import */ var _images_defaultBcg_jpeg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_defaultBcg_jpeg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\BeerComp.js";
+
+
+
+
+
+const BeerComp = Object(react__WEBPACK_IMPORTED_MODULE_0__["memo"])(({
+  beer
+}) => {
+  const {
+    name,
+    slug,
+    images,
+    price
+  } = beer;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+    className: "beer",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "img-container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 6
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: images[0] || _images_defaultBcg_jpeg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: "single-beer",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 6
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "price-top",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }, price, "\u20AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, "par bi\xE8re")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: `/bieres/${slug}`,
+    className: "btn-primary beer-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "en savoir plus")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "beer-info",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, name));
+});
+BeerComp.propTypes = {
+  beer: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.shape({
+    name: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string.isRequired,
+    slug: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string.isRequired,
+    images: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string).isRequired,
+    price: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.number.isRequired
+  })
+};
+/* harmony default export */ __webpack_exports__["default"] = (BeerComp);
+
+/***/ }),
+
+/***/ "./src/components/BeerContainer.js":
+/*!*****************************************!*\
+  !*** ./src/components/BeerContainer.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BeersContainer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BeerFilter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BeerFilter */ "./src/components/BeerFilter.js");
+/* harmony import */ var _BeerList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BeerList */ "./src/components/BeerList.js");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../context */ "./src/context.js");
+/* harmony import */ var _Loading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Loading */ "./src/components/Loading.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\BeerContainer.js";
+
+
+
+
+
+function BeersContainer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context__WEBPACK_IMPORTED_MODULE_3__["BeerConsumer"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, value => {
+    const {
+      loading,
+      sortedBeers,
+      beers
+    } = value;
+
+    if (loading) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 28
+        }
+      });
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BeerFilter__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      beers: beers,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 25
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BeerList__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      beers: sortedBeers,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 25
+      }
+    }));
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/BeerFilter.js":
+/*!**************************************!*\
+  !*** ./src/components/BeerFilter.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BeerFilter; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context */ "./src/context.js");
+/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Title */ "./src/components/Title.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\BeerFilter.js";
+
+
+
+ // get all unique values
+
+const getUnique = (items, value) => {
+  return [...new Set(items.map(item => item[value]))];
+};
+
+function BeerFilter({
+  beers
+}) {
+  const context = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_1__["BeerContext"]);
+  const {
+    handleChange,
+    type
+  } = context; //get unique types 
+
+  let types = getUnique(beers, 'type'); //add all
+
+  types = ["Toutes les bieres", ...types]; //map to jsx
+
+  types = types.map((item, index) => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      value: item,
+      key: index,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 10
+      }
+    }, item);
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "filter-container",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Quelle bi\xE8re cherchez vous",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "filter-form",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "type",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }
+  }, "type de bi\xE8re"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    name: "type",
+    id: "type",
+    value: type,
+    className: "form-control",
+    onChange: handleChange,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 7
+    }
+  }, types))));
+}
+
+/***/ }),
+
+/***/ "./src/components/BeerList.js":
+/*!************************************!*\
+  !*** ./src/components/BeerList.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BeerList; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BeerComp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BeerComp */ "./src/components/BeerComp.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\BeerList.js";
+
+
+function BeerList({
+  beers
+}) {
+  if (beers.length === 0) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "empty-search",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 12
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 16
+      }
+    }, "Malhereusement aucune biere ne correspond \xE0 votre recherche "));
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("secion", {
+    className: "beerslist",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 6
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "beerslist-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, beers.map(item => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BeerComp__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      key: item.id,
+      beer: item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 18
+      }
+    });
+  })));
+}
+
+/***/ }),
+
+/***/ "./src/components/FeaturedBeers.js":
+/*!*****************************************!*\
+  !*** ./src/components/FeaturedBeers.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FeaturedBeers; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context */ "./src/context.js");
+/* harmony import */ var _Loading__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Loading */ "./src/components/Loading.js");
+/* harmony import */ var _Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Title */ "./src/components/Title.js");
+/* harmony import */ var _BeerComp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./BeerComp */ "./src/components/BeerComp.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\FeaturedBeers.js";
+
+
+
+
+
+class FeaturedBeers extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let {
+      loading,
+      featuredBeers: beers
+    } = this.context;
+    beers = beers.map(beer => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BeerComp__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        key: beer.id,
+        beer: beer,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 17
+        }
+      });
+    });
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      classeName: "featured Beers",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      title: "Nos bieres du moment",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 16
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "featured-beers-center",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 15
+      }
+    }, loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 25
+      }
+    }) : beers));
+  }
+
+}
+FeaturedBeers.contextType = _context__WEBPACK_IMPORTED_MODULE_1__["BeerContext"];
+
+/***/ }),
+
+/***/ "./src/components/Hero.js":
+/*!********************************!*\
+  !*** ./src/components/Hero.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Hero.js";
+
+
+const Hero = ({
+  children,
+  hero
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: hero,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 10
+    }
+  }, children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Hero);
+Hero.defaultProps = {
+  hero: "defaultHero"
+};
+
+/***/ }),
+
+/***/ "./src/components/Loading.js":
+/*!***********************************!*\
+  !*** ./src/components/Loading.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Loading; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_gif_loading_arrow_gif__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/gif/loading-arrow.gif */ "./src/images/gif/loading-arrow.gif");
+/* harmony import */ var _images_gif_loading_arrow_gif__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_gif_loading_arrow_gif__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Loading.js";
+
+
+function Loading() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "loading",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }
+  }, "recherche en cours..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_gif_loading_arrow_gif__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/components/Navbar.js":
+/*!**********************************!*\
+  !*** ./src/components/Navbar.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Navbar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_logo_gif__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/logo.gif */ "./src/images/logo.gif");
+/* harmony import */ var _images_logo_gif__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_logo_gif__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Navbar.js";
+
+
+
+
+class Navbar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      isOpen: false
+    };
+
+    this.handleToggle = () => {
+      this.setState({
+        isOpen: !this.state.isOpen
+      });
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      className: "navbar",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "nav-center",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "nav-header",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_logo_gif__WEBPACK_IMPORTED_MODULE_1___default.a,
+      alt: "Brasserie L'intemporelle",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 15
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      type: "button",
+      className: "nav-btn",
+      onClick: this.handleToggle,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__["FaAlignRight"], {
+      className: "nav-icon",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 15
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: this.state.isOpen ? "nav-links show-nav" : "nav-links",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 15
+      }
+    }, "Accueil")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/bieres",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 15
+      }
+    }, "Nos Bi\xE8res")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/news",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 15
+      }
+    }, "Nouvelles")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/about",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 15
+      }
+    }, "A propros")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      to: "/contactus",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 15
+      }
+    }, "Nous Contacter")))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/components/Services.js":
+/*!************************************!*\
+  !*** ./src/components/Services.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Services; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Title */ "./src/components/Title.js");
+/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/bi */ "./node_modules/react-icons/bi/index.esm.js");
+/* harmony import */ var react_icons_ri__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/ri */ "./node_modules/react-icons/ri/index.esm.js");
+/* harmony import */ var react_icons_cg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/cg */ "./node_modules/react-icons/cg/index.esm.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Services.js";
+
+
+
+
+
+class Services extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      Services: [{
+        icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_bi__WEBPACK_IMPORTED_MODULE_2__["BiBeer"], {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11,
+            columnNumber: 15
+          }
+        }),
+        title: "frabication de Bières",
+        info: "Dégustation & visites"
+      }, {
+        icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiTruckLine"], {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17,
+            columnNumber: 15
+          }
+        }),
+        title: "Livraison",
+        info: "fût et locations de pompes"
+      }, {
+        icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_cg__WEBPACK_IMPORTED_MODULE_4__["CgShoppingCart"], {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22,
+            columnNumber: 15
+          }
+        }),
+        title: "Vente de produits artisanaux",
+        info: "Soirées accords me(t)s bières"
+      }]
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "services",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Title__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      title: "services",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 14
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "services-center",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 14
+      }
+    }, this.state.Services.map((item, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        key: index,
+        className: "service",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 18
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 19
+        }
+      }, item.icon), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 19
+        }
+      }, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 19
+        }
+      }, item.info));
+    })));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/components/StyledHero.js":
+/*!**************************************!*\
+  !*** ./src/components/StyledHero.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _images_biere_2_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/biere-2.jpeg */ "./src/images/biere-2.jpeg");
+/* harmony import */ var _images_biere_2_jpeg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_biere_2_jpeg__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const StyledHero = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].header`
+min-height: 60vh;
+  background: url(${props => props.img ? props.img : _images_biere_2_jpeg__WEBPACK_IMPORTED_MODULE_1___default.a}) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+/* harmony default export */ __webpack_exports__["default"] = (StyledHero);
+
+/***/ }),
+
+/***/ "./src/components/Title.js":
+/*!*********************************!*\
+  !*** ./src/components/Title.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Title; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\components\\Title.js";
+
+function Title({
+  title
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "section-title",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 12
+    }
+  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 12
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./src/context.js":
+/*!************************!*\
+  !*** ./src/context.js ***!
+  \************************/
+/*! exports provided: withBeerConsumer, BeerProvider, BeerConsumer, BeerContext */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withBeerConsumer", function() { return withBeerConsumer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BeerProvider", function() { return BeerProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BeerConsumer", function() { return BeerConsumer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BeerContext", function() { return BeerContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contentful__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contentful */ "./src/Contentful.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\context.js";
+ //import items from './data'
+
+
+const BeerContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(); //<BeerContext.Provider value={'hello'}
+
+class BeerProvider extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      beers: [],
+      sortedBeers: [],
+      featuredBeers: [],
+      loading: true,
+      type: 'Toutes les bieres',
+      vol: 1,
+      price: 0
+    };
+
+    this.getData = async () => {
+      try {
+        let response = await _Contentful__WEBPACK_IMPORTED_MODULE_1__["default"].getEntries({
+          content_type: "brasserieLintemporelle"
+        });
+        let beers = this.formatData(response.items);
+        let featuredBeers = beers.filter(beer => beer.featured === true);
+        this.setState({
+          beers,
+          featuredBeers,
+          sortedBeers: beers,
+          loading: false
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    this.getBeer = slug => {
+      let tempBeers = [...this.state.beers];
+      const beer = tempBeers.find(beer => beer.slug === slug);
+      return beer;
+    };
+
+    this.handleChange = event => {
+      const target = event.target;
+      const name = event.target.name;
+      const value = event.type === 'checkbox' ? target.checked : target.value;
+      this.setState({
+        [name]: value
+      }, this.filterBeers);
+    };
+
+    this.filterBeers = () => {
+      let {
+        beers,
+        type
+      } = this.state;
+      let tempBeers = [...beers];
+
+      if (type !== 'Toutes les bieres') {
+        tempBeers = tempBeers.filter(beer => beer.type === type);
+      }
+
+      this.setState({
+        sortedBeers: tempBeers
+      });
+    };
+  }
+
+  componentDidMount() {
+    this.getData();
+  }
+
+  formatData(items) {
+    let tempItems = items.map(item => {
+      let id = item.sys.id;
+      let images = item.fields.images.map(image => image.fields.file.url);
+      let beer = { ...item.fields,
+        images,
+        id
+      };
+      return beer;
+    });
+    return tempItems;
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BeerContext.Provider, {
+      value: { ...this.state,
+        getBeer: this.getBeer,
+        handleChange: this.handleChange
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 9
+      }
+    }, this.props.children);
+  }
+
+}
+
+const BeerConsumer = BeerContext.Consumer;
+function withBeerConsumer(componentDidMount) {
+  return function ConsumerWrapper(props) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BeerConsumer, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 105,
+        columnNumber: 16
+      }
+    }, value => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Component"], Object.assign({}, props, {
+      context: value,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106,
+        columnNumber: 22
+      }
+    })));
+  };
+}
+
+
+/***/ }),
+
+/***/ "./src/images/about.jpeg":
+/*!*******************************!*\
+  !*** ./src/images/about.jpeg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/about.371da6da.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/aboutText.jpeg":
+/*!***********************************!*\
+  !*** ./src/images/aboutText.jpeg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/aboutText.01a0a26b.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/biere-2.jpeg":
+/*!*********************************!*\
+  !*** ./src/images/biere-2.jpeg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/biere-2.19cf925d.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/contactus.jpeg":
+/*!***********************************!*\
+  !*** ./src/images/contactus.jpeg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/contactus.96ab5857.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/defaultBcg.jpeg":
+/*!************************************!*\
+  !*** ./src/images/defaultBcg.jpeg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/defaultBcg.8d12f131.jpeg";
+
+/***/ }),
+
+/***/ "./src/images/engrenage-composition-motif.jpg":
+/*!****************************************************!*\
+  !*** ./src/images/engrenage-composition-motif.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/engrenage-composition-motif.5fa012b8.jpg";
+
+/***/ }),
+
+/***/ "./src/images/gif/loading-arrow.gif":
+/*!******************************************!*\
+  !*** ./src/images/gif/loading-arrow.gif ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/loading-arrow.e9ea7394.gif";
+
+/***/ }),
+
+/***/ "./src/images/localisation.JPG":
+/*!*************************************!*\
+  !*** ./src/images/localisation.JPG ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/localisation.b0d4aa60.JPG";
+
+/***/ }),
+
+/***/ "./src/images/logo.gif":
+/*!*****************************!*\
+  !*** ./src/images/logo.gif ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/logo.47b49276.gif";
+
+/***/ }),
+
+/***/ "./src/images/news.jpg":
+/*!*****************************!*\
+  !*** ./src/images/news.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/news.5fa012b8.jpg";
+
+/***/ }),
+
+/***/ "./src/images/newsprogress.gif":
+/*!*************************************!*\
+  !*** ./src/images/newsprogress.gif ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/newsprogress.8ba8ce24.gif";
+
+/***/ }),
+
+/***/ "./src/images/votreBrasseur.jpg":
+/*!**************************************!*\
+  !*** ./src/images/votreBrasseur.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/votreBrasseur.a7c0b66b.jpg";
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./context */ "./src/context.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\index.js";
+
+ //import './index.css';
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context__WEBPACK_IMPORTED_MODULE_5__["BeerProvider"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["BrowserRouter"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 5
+  }
+}))), document.getElementById("root")); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_3__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/pages/About.js":
+/*!****************************!*\
+  !*** ./src/pages/About.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_about_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/about.jpeg */ "./src/images/about.jpeg");
+/* harmony import */ var _images_about_jpeg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_about_jpeg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_aboutText_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/aboutText.jpeg */ "./src/images/aboutText.jpeg");
+/* harmony import */ var _images_aboutText_jpeg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_aboutText_jpeg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_votreBrasseur_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/votreBrasseur.jpg */ "./src/images/votreBrasseur.jpg");
+/* harmony import */ var _images_votreBrasseur_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_votreBrasseur_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_StyledHero__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/StyledHero */ "./src/components/StyledHero.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\About.js";
+
+
+
+
+
+
+
+class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_StyledHero__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      img: _images_about_jpeg__WEBPACK_IMPORTED_MODULE_1___default.a,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      title: `A propos de la brasserie l'intemporelle`,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Link"], {
+      to: "/",
+      className: "btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 13
+      }
+    }, "retour a l'accueil"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "biere",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "biere-info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      className: "desc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 21
+      }
+    }, "Parce que la bi\xE8re est la plus ancienne boisson cr\xE9\xE9e par l'Homme et que L'\xE9ph\xE9m\xE8re plaisir qu'elle apporte a su traverser le temps... Nous continuons \xE0 le partager..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 21
+      }
+    }, "L\u2019entreprise est sp\xE9cialis\xE9e dans la fabrication de bi\xE8res de d\xE9gustation.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 21
+      }
+    }, "Cr\xE9\xE9e en 2017, la brasserie est situ\xE9e \xE0 Wailly-Les-Arras, aux portes d'Arras, dans les Hauts-de-France."), "En plus des bi\xE8res, vous trouverez chez nous th\xE9s, savons, jus de pommes et autres produits artisanaux"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 21
+      }
+    }, "Diff\xE9rentes soir\xE9es et \xE9v\xE9nements sont \xE9galement propos\xE9s tout au long de l'ann\xE9e. Location de pompe \xE0 bi\xE8res avec f\xFBt (recyclable) 20 litres / 30 litres Visites sur r\xE9servation. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 21
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_aboutText_jpeg__WEBPACK_IMPORTED_MODULE_2___default.a,
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 24
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      classename: "info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 17
+      }
+    }, "Votre Brasseur"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_votreBrasseur_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 17
+      }
+    })))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/pages/Biere.js":
+/*!****************************!*\
+  !*** ./src/pages/Biere.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Biere; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_engrenage_composition_motif_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/engrenage-composition-motif.jpg */ "./src/images/engrenage-composition-motif.jpg");
+/* harmony import */ var _images_engrenage_composition_motif_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_engrenage_composition_motif_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../context */ "./src/context.js");
+/* harmony import */ var _components_StyledHero__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/StyledHero */ "./src/components/StyledHero.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\Biere.js";
+
+
+
+
+
+
+
+class Biere extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    console.log(this.props);
+    this.state = {
+      slug: this.props.match.params.slug,
+      defaultBcg: (_images_engrenage_composition_motif_jpg__WEBPACK_IMPORTED_MODULE_1___default())
+    };
+  }
+
+  //componentDidMount (){}
+  render() {
+    const {
+      getBeer
+    } = this.context;
+    const beer = getBeer(this.state.slug);
+
+    if (!beer) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        hero: "bieresHero",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        title: "Oops...",
+        subtitle: "Biere inconnue",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "/bieres",
+        className: "btn-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 19
+        }
+      }, "retourner aux bieres")));
+    }
+
+    const {
+      name,
+      description,
+      volume,
+      size,
+      pack,
+      price,
+      extras,
+      images
+    } = beer;
+    const [mainImg, ...defaultImg] = images;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_StyledHero__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      img: mainImg || this.state.defaultBcg,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      title: `${name}`,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+      to: "/bieres",
+      className: "btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 17
+      }
+    }, "retour aux bieres"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "biere",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "biere-images",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 11
+      }
+    }, defaultImg.map((item, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        key: index,
+        src: item,
+        alt: name,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 17
+        }
+      });
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "biere-info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      className: "desc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 12
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 13
+      }
+    }, "Mot du brasseur"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 13
+      }
+    }, description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      className: "info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 12
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 14
+      }
+    }, "Infos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 14
+      }
+    }, "volume :", size, "cl"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 14
+      }
+    }, "Prix :", price, "\u20AC "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 14
+      }
+    }, "Le carton :", pack, "\u20AC "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 14
+      }
+    }, "Degr\xE9s d'alcool:", volume, "%vol.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "biere-extras",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 11
+      }
+    }, "Accords du brasseur"), extras.map((item, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        key: index,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 20
+        }
+      }, "- ", item);
+    })));
+  }
+
+}
+Biere.contextType = _context__WEBPACK_IMPORTED_MODULE_5__["BeerContext"];
+
+/***/ }),
+
+/***/ "./src/pages/Bieres.js":
+/*!*****************************!*\
+  !*** ./src/pages/Bieres.js ***!
+  \*****************************/
+/*! exports provided: Bieres, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Bieres", function() { return Bieres; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_BeerContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/BeerContainer */ "./src/components/BeerContainer.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\Bieres.js";
+
+
+
+
+
+const Bieres = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    hero: "bieresHero",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Les bi\xE8res L'intemporelle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/",
+    className: "btn-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 17
+    }
+  }, "retour \xE0 l'accueil"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BeerContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }));
+};
+/* harmony default export */ __webpack_exports__["default"] = (Bieres);
+
+/***/ }),
+
+/***/ "./src/pages/ContactUs.js":
+/*!********************************!*\
+  !*** ./src/pages/ContactUs.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ContactUs; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_contactus_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/contactus.jpeg */ "./src/images/contactus.jpeg");
+/* harmony import */ var _images_contactus_jpeg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_contactus_jpeg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_localisation_JPG__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/localisation.JPG */ "./src/images/localisation.JPG");
+/* harmony import */ var _images_localisation_JPG__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_localisation_JPG__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_StyledHero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/StyledHero */ "./src/components/StyledHero.js");
+/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-icons/bi */ "./node_modules/react-icons/bi/index.esm.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\ContactUs.js";
+
+
+
+
+
+
+
+
+
+class ContactUs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_StyledHero__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      img: _images_contactus_jpeg__WEBPACK_IMPORTED_MODULE_1___default.a,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      title: `Nous contacter`,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+      to: "/",
+      className: "btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 13
+      }
+    }, "retour a l'accueil"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "biere",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "biere-info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      className: "desc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 21
+      }
+    }, "Localisation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 21
+      }
+    }, "40 bis rue de Pas 62217 Wailly", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "waze://?=q=40+bis+rue+de+pas+62217+wailly",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 55
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_bi__WEBPACK_IMPORTED_MODULE_6__["BiCar"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 107
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_localisation_JPG__WEBPACK_IMPORTED_MODULE_2___default.a,
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 21
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      classename: "info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 17
+      }
+    }, "Nous contacter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 21
+      }
+    }, "Par mail brasserie.l.intemporelle@gmail.com ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:brasserie.l.intemporelle@gmail.com",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 69
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_bi__WEBPACK_IMPORTED_MODULE_6__["BiMailSend"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 121
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 21
+      }
+    }, "Par t\xE9l\xE9phone ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "tel:+33785170479",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 39
+      }
+    }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_bi__WEBPACK_IMPORTED_MODULE_6__["BiPhoneCall"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 67
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 16
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.facebook.com/brasserielintemporelle",
+      onclick: "window.open(this.href); return false;",
+      className: "btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 20
+      }
+    }, "retrouvez nous sur Facebook"))))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/pages/Erreurs.js":
+/*!******************************!*\
+  !*** ./src/pages/Erreurs.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\Erreurs.js";
+
+
+
+
+
+const Error = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Oops...",
+    subtitle: "page non trouv\xE9e",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/",
+    className: "btn-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, "retourner \xE0 l'accueil")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Error);
+
+/***/ }),
+
+/***/ "./src/pages/Home.js":
+/*!***************************!*\
+  !*** ./src/pages/Home.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var _components_Services__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Services */ "./src/components/Services.js");
+/* harmony import */ var _components_FeaturedBeers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/FeaturedBeers */ "./src/components/FeaturedBeers.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\Home.js";
+
+
+
+
+
+
+
+const home = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Brasserie L'intemporelle",
+    subtitle: "Bienvenue sur le site !",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/bieres",
+    className: "btn-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, "Decouvrez nos Bi\xE8res"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Services__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "En ce moment ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/news",
+    className: "btn-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, "Voir les evenements")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FeaturedBeers__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (home);
+
+/***/ }),
+
+/***/ "./src/pages/LivreDor.js":
+/*!*******************************!*\
+  !*** ./src/pages/LivreDor.js ***!
+  \*******************************/
+/*! exports provided: LivreDor, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LivreDor", function() { return LivreDor; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\LivreDor.js";
+
+
+
+
+const LivreDor = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    hero: "bieresHero",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Le livre d'or",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/",
+    className: "btn-primary",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 17
+    }
+  }, "retour \xE0 l'accueil")));
+};
+/* harmony default export */ __webpack_exports__["default"] = (LivreDor);
+
+/***/ }),
+
+/***/ "./src/pages/News.js":
+/*!***************************!*\
+  !*** ./src/pages/News.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return News; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_news_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/news.jpg */ "./src/images/news.jpg");
+/* harmony import */ var _images_news_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_news_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_newsprogress_gif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/newsprogress.gif */ "./src/images/newsprogress.gif");
+/* harmony import */ var _images_newsprogress_gif__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_newsprogress_gif__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_StyledHero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/StyledHero */ "./src/components/StyledHero.js");
+var _jsxFileName = "C:\\Users\\Math\\Desktop\\Sites\\sites\\brasserie-lintemporelle\\src\\pages\\News.js";
+
+
+
+
+
+
+class News extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_StyledHero__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      img: _images_news_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      title: `En ce moment `,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+      to: "/",
+      className: "btn-primary",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 13
+      }
+    }, "retour a l'accueil"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "biere",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "biere-info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      className: "desc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 21
+      }
+    }, "Prochainement ..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 21
+      }
+    }, "vous retrouverez ici, les nouveaut\xE9s, les bi\xE8res en pr\xE9parations et tout ce qui touche de pr\xE8s votre brasserie ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_newsprogress_gif__WEBPACK_IMPORTED_MODULE_2___default.a,
+      alt: "",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 135
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      classename: "info",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 17
+      }
+    }, "Salon / presence "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 17
+      }
+    }, " c'est ici que nous vous informeront des prochains salon / evenements o\xF9 nous seront pr\xE9sent ")))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.0/8 are considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl, {
+    headers: {
+      'Service-Worker': 'script'
+    }
+  }).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    }).catch(error => {
+      console.error(error.message);
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Math\Desktop\Sites\sites\brasserie-lintemporelle\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Math\Desktop\Sites\sites\brasserie-lintemporelle\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Math\Desktop\Sites\sites\brasserie-lintemporelle\src\index.js */"./src/index.js");
+
+
+/***/ }),
+
+/***/ 2:
+/*!********************!*\
+  !*** os (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map
